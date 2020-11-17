@@ -1,0 +1,157 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 15708
+License: Customer
+
+Current time: 	Tue Nov 17 20:34:29 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1200
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	lsfan
+User home directory: C:/Users/lsfan
+User working directory: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/VU13P_device
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/lsfan/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/lsfan/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/lsfan/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/VU13P_device/vivado.log
+Vivado journal file location: 	C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/VU13P_device/vivado.jou
+Engine tmp dir: 	C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/VU13P_device/.Xil/Vivado-15708-DESKTOP-KSU5LFA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_SDK: C:/Xilinx/Vitis/2020.1
+XILINX_VITIS: C:/Xilinx/Vitis/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,093 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 117 MB (+119750kb) [00:00:06]
+// [Engine Memory]: 1,093 MB (+994920kb) [00:00:06]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\lsfan\Documents\GitHub\Xilinx-FPGA------\examples\VU13P_device\VU13P_device.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/VU13P_device/VU13P_device.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1864 ms.
+// Tcl Message: open_project C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/VU13P_device/VU13P_device.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/LtrProjects/VivadoProjects/VU13P_device' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 56 MB. Current time: 11/17/20, 8:34:29 PM CST
+// Tcl Message: open_io_design -name io_1 
+// Tcl Message: Design is defaulting to project part: xcvu13p-flga2577-3-e 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 219ms to process. Increasing delay to 2000 ms.
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,472 MB. GUI used memory: 56 MB. Current time: 11/17/20, 8:34:48 PM CST
+// [Engine Memory]: 2,472 MB (+1388275kb) [00:00:30]
+// [GUI Memory]: 205 MB (+86907kb) [00:00:32]
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/virtexuplus/devint/virtexuplus/xcvu13p/xcvu13p.xgd; ZipEntry: xcvu13p_detail.xgd elapsed time: 1.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.8s
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 2,803 MB (+217144kb) [00:00:36]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 4.1s
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1993 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xcvu13p-flga2577-3-e 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2130.484 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2278.836 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_io_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:26 . Memory (MB): peak = 2885.742 ; gain = 1774.906 
+// Project name: VU13P_device; location: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/VU13P_device; part: xcvu13p-flga2577-3-e
+dismissDialog("Open Project"); // bz (cs)
+// [GUI Memory]: 224 MB (+8948kb) [00:00:38]
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 3,059 MB. GUI used memory: 173 MB. Current time: 11/17/20, 8:35:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,836 MB. GUI used memory: 173 MB. Current time: 11/17/20, 8:35:19 PM CST
+// [Engine Memory]: 4,291 MB (+1414167kb) [00:01:15]
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // m (l, cs)
+// Device view-level: 0.0
+// RouteApi::initDelayMediator elapsed time: 41.8s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -202354, 230925); // E (F, cs)
+// Device view-level: 0.6
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -7325, 430577); // E (F, cs)
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 179 MB. Current time: 11/17/20, 8:35:50 PM CST
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Device_zoom_fit"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Device view-level: 0.0
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 3451688, 4360400); // E (F, cs)
+// Device select: 'Clock Region - X7Y7'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 753, 321, 1273, 676); // U (m, cs)
+// [GUI Memory]: 236 MB (+478kb) [00:01:39]
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 2378568, 3939302); // E (F, cs)
+// Device view-level: 1.4
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 181 MB. Current time: 11/17/20, 8:36:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 180 MB. Current time: 11/17/20, 8:36:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 218 MB. Current time: 11/17/20, 8:36:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 181 MB. Current time: 11/17/20, 9:06:09 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 171 MB. Current time: 11/17/20, 9:36:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 174 MB. Current time: 11/17/20, 9:40:55 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,291 MB. GUI used memory: 174 MB. Current time: 11/17/20, 10:11:00 PM CST

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 17 19:30:32 2020
+# Process ID: 21892
+# Current directory: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24044 C:\Users\lsfan\Documents\GitHub\Xilinx-FPGA------\examples\ZCU_deivce\ZCU_deivce.xpr
+# Log file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce/vivado.log
+# Journal file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce/ZCU_deivce.xpr
+INFO: [Project 1-313] Project file moved from 'E:/LtrProjects/VivadoProjects/ZCU_deivce' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce/ZCU_deivce.srcs/sources_1', nor could it be found using path 'E:/LtrProjects/VivadoProjects/ZCU_deivce/ZCU_deivce.srcs/sources_1'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1089.129 ; gain = 0.000
+open_io_design -name io_1
+Design is defaulting to project part: xczu7ev-ffvc1156-2-e
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2041.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2041.910 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_io_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:27 . Memory (MB): peak = 2575.469 ; gain = 1486.340

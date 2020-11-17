@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 17 19:30:32 2020
+# Process ID: 21892
+# Current directory: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24044 C:\Users\lsfan\Documents\GitHub\Xilinx-FPGA------\examples\ZCU_deivce\ZCU_deivce.xpr
+# Log file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce/vivado.log
+# Journal file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/ZCU_deivce/ZCU_deivce.xpr
+open_io_design -name io_1

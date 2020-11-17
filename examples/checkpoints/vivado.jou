@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 17 18:16:15 2020
+# Process ID: 17380
+# Current directory: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4580 C:\Users\lsfan\Documents\GitHub\Xilinx-FPGA------\examples\checkpoints\FIR145withClock_fixed.dcp
+# Log file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints/vivado.log
+# Journal file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints/FIR145withClock_fixed.dcp
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_utilization -name utilization_1
