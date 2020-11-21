@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 17 18:16:15 2020
+# Process ID: 17380
+# Current directory: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4580 C:\Users\lsfan\Documents\GitHub\Xilinx-FPGA------\examples\checkpoints\FIR145withClock_fixed.dcp
+# Log file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints/vivado.log
+# Journal file: C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints/FIR145withClock_fixed.dcp
+Command: open_checkpoint C:/Users/lsfan/Documents/GitHub/Xilinx-FPGA------/examples/checkpoints/FIR145withClock_fixed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1113.395 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 2096.426 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 175 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2557.758 ; gain = 55.535
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2557.758 ; gain = 55.535
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2557.758 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 174 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 145 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 28 instances
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2020.1 (64-bit) build 2902540
+open_checkpoint: Time (s): cpu = 00:00:58 ; elapsed = 00:00:34 . Memory (MB): peak = 3020.090 ; gain = 1906.695
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 4491.996 ; gain = 0.000
+report_utilization -name utilization_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 17 22:12:04 2020...
